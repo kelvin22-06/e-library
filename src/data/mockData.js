@@ -1,13 +1,13 @@
 export const books = [
   {
     id: 1,
-    title: "To Kill a Mockingbird",
-    author: "Harper Lee",
+    title: "The Psychology of Money",
+    author: "Morgan Housel",
     isbn: "978-0-06-112008-4",
-    category: "Fiction",
+    category: "Personal Finance and self-help",
     description:
-      "A gripping, heart-wrenching, and wholly remarkable tale of coming-of-age in a South poisoned by virulent prejudice.",
-    coverImage: "/Book1.png?height=400&width=200",
+      "The Psychology of Money is a collection of short stories exploring the strange ways people think about money. ",
+    coverImage: "/book1.png?height=400&width=200",
     available: true,
     totalCopies: 5,
     availableCopies: 3,
@@ -15,12 +15,12 @@ export const books = [
   },
   {
     id: 2,
-    title: "1984",
-    author: "George Orwell",
+    title: "Hooked",
+    author: "Emily McIntire",
     isbn: "978-0-452-28423-4",
-    category: "Dystopian Fiction",
+    category: "Dark Romance",
     description:
-      "A dystopian social science fiction novel that follows Winston Smith, a low-ranking member of 'the Party'.",
+      "This genre features morally grey characters, intense relationships, and potentially disturbing or triggering content. ",
     coverImage: "/book2.png?height=300&width=200",
     available: false,
     totalCopies: 3,
@@ -42,8 +42,8 @@ export const books = [
   },
   {
     id: 4,
-    title: "Pride and Prejudice",
-    author: "Jane Austen",
+    title: "Nonsense",
+    author: "Helen Fields",
     isbn: "978-0-14-143951-8",
     category: "Romance",
     description: "A romantic novel of manners following the character development of Elizabeth Bennet.",
@@ -55,7 +55,7 @@ export const books = [
   },
   {
     id: 5,
-    title: "The Catcher in the Rye",
+    title: "The Creativity Gene",
     author: "J.D. Salinger",
     isbn: "978-0-316-76948-0",
     category: "Coming of Age",
@@ -69,8 +69,8 @@ export const books = [
   },
   {
     id: 6,
-    title: "Lord of the Flies",
-    author: "William Golding",
+    title: "Signals",
+    author: "DR Philippa Malmgren",
     isbn: "978-0-571-05686-2",
     category: "Adventure",
     description: "A British allegorical novel about a group of British boys stuck on an uninhabited island.",
@@ -107,7 +107,7 @@ export const borrowedBooks = [
 
 export const categories = [
   "All Categories",
-  "Fiction",
+  "Personal finance and self-help",
   "Dystopian Fiction",
   "Classic Literature",
   "Romance",
