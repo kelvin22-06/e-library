@@ -154,7 +154,7 @@ const Library = () => {
   const authors = ['All Authors', ...new Set(books.map(book => book.author))];
   const years = ['All Years', ...new Set(books.map(book => book.year.toString()))];
   const fileTypes = ['All Types', ...new Set(books.map(book => book.fileType))];
-console.log(authors)
+
   const BookCard = ({ book, isListView }) => {
     if (isListView) {
       return (
