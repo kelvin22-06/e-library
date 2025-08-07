@@ -64,7 +64,7 @@ const Books = () => {
 
   return (
    
-    <main className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50 relative overflow-hidden">
+  <main className="min-h-screen bg-gradient-to-br from-blue-100 via-gray-50 to-cyan-100 relative overflow-hidden">
     {/* Background decorations */}
     <div className="absolute inset-0 overflow-hidden pointer-events-none">
       <div className="absolute -top-40 -right-32 w-96 h-96 bg-gradient-to-r from-blue-400/10 to-cyan-400/10 rounded-full blur-3xl animate-pulse"></div>
@@ -113,11 +113,11 @@ const Books = () => {
         <div className="mt-8 flex flex-wrap items-center justify-center gap-8 animate-slide-up delay-300">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-            <span className="text-sm font-medium text-gray-600">10,000+ Books</span>
+            <span className="text-sm font-medium text-gray-600">10000+ Books</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse delay-200"></div>
-            <span className="text-sm font-medium text-gray-600">500+ Authors</span>
+            <span className="text-sm font-medium text-gray-600">20+ Subjects</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse delay-400"></div>
