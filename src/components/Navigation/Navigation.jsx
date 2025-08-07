@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link, useLocation } from "react-router-dom"
-import { BookOpen, Home, LayoutDashboard, Settings, Menu, X, Sparkles } from 'lucide-react'
+import { BookOpen, Home, LayoutDashboard, Settings, Menu, X, Sparkles, BookOpenText  } from 'lucide-react'
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -20,6 +20,7 @@ const Navigation = () => {
 
   const navItems = [
     { path: "/", label: "Books", icon: BookOpen },
+    { path: "/library", label: "Library", icon: BookOpenText },
     { path: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
     { path: "/admin", label: "Admin", icon: Settings },
   ]

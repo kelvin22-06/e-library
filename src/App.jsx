@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation/Navigation"
 import Books from "./pages/Books/Books"
 import BookDetail from "./pages/BookDetail/BookDetail"
 import Dashboard from "./pages/Dashboard/Dashboard"
+import Library from "./pages/Library/Library"
 import Admin from "./pages/Admin/Admin"
 import "./styles/globals.css"
 import "./index.css"
@@ -17,6 +18,7 @@ function App() {
           <Route path="/book/:id" element={<BookDetail />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/admin" element={<Admin />} />
+          <Route path="/library" element={<Library />} />
         </Routes>
       </div>
     </Router>
