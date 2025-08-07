@@ -5,6 +5,7 @@ import BookDetail from "./pages/BookDetail/BookDetail"
 import Dashboard from "./pages/Dashboard/Dashboard"
 import Admin from "./pages/Admin/Admin"
 import "./styles/globals.css"
+import "./index.css"
 
 function App() {
   return (

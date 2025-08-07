@@ -7,7 +7,7 @@ export const books = [
     category: "Personal Finance and self-help",
     description:
       "The Psychology of Money is a collection of short stories exploring the strange ways people think about money. ",
-    coverImage: "/image.png?height=400&width=200",
+    coverImage: "/Book1.png?height=400&width=200",
     available: true,
     totalCopies: 5,
     availableCopies: 3,

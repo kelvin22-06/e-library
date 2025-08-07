@@ -36,7 +36,7 @@ const SearchFilter = ({ onSearch, onFilter, totalResults }) => {
             placeholder="Search by title, author, or ISBN..."
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
-            className={styles.searchInput}
+            className= "text-black"
             aria-describedby="search-help"
           />
           <div id="search-help" className="sr-only">
@@ -52,7 +52,7 @@ const SearchFilter = ({ onSearch, onFilter, totalResults }) => {
             id="category-filter"
             value={selectedCategory}
             onChange={(e) => setSelectedCategory(e.target.value)}
-            className={styles.filterSelect}
+            className="text-black"
             aria-describedby="filter-help"
           >
             {categories.map((category) => (
@@ -69,7 +69,7 @@ const SearchFilter = ({ onSearch, onFilter, totalResults }) => {
         <button
           onClick={handleClear}
           disabled={!hasFilters}
-          className={styles.clearButton}
+          className="bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-4 py-2 rounded-md hover:from-blue-700 hover:to-cyan-700 transition-all duration-200"
           aria-label="Clear all filters"
         >
           Clear Filters
